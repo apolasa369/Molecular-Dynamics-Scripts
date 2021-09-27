@@ -1,0 +1,7 @@
+# bash, too, uses the same concepts as any other scripting language. Below are arrays that hold information for outputs and also the 
+
+
+
+#to run this file commands are listed at the end please go through each part of this scrpit first and make changes accordingly.
+
+#this scrpits includes anlysis for RMSD, RMSF, Radius of gyration, inter helical angles , center of mass distance, 
