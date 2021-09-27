@@ -1,0 +1,2 @@
+Calculates the bending angle at every position of each residue for each frame
+A post-analysis script should be performed on each column to get average, sd, min, max, etc
