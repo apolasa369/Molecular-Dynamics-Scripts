@@ -1,0 +1,11 @@
+Counts the number of water molecules along the pore and report between -40 and 40 angstrom at every angstrom for each frame
+A post-analysis script should be performed on each column to get average, sd, min, max, etc
+
+commands to run the scrpit
+chmod a+x do_water.sh (this should be only done for once)
+
+./do_water.sh
+
+following this script above please run 2awk.sh and 3awk.sh in order inside the folder where results of this analysis are generated
+
+
