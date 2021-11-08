@@ -1,0 +1,2 @@
+pa.sh extracts all 12 helical principal axes (the third one, i.e., the longest one) from all frames
+papca.sh does pca over principal axes and reports a bunch of different things
