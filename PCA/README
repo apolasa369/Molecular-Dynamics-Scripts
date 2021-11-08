@@ -1,0 +1,33 @@
+for PCA analysis please download the prody software beforehand from following wesite http://prody.csb.pitt.edu
+
+for more details on the topic PCA please review the following article https://www.pnas.org/content/106/34/14349.full
+
+Also require python installed for this analysis
+
+first run the indices.sh to generate indivual index file for the PDB atom numbers
+
+following the index genration we need to generate indiviual dcd files for each selection to run
+
+strip.sh #generates new dcds files used for PCA
+
+Keeping only CA atoms speeds up the calculations.
+This script will first extract all CA atoms from a bunch of dcd files and then combines them in one dcd file
+You need to modify the loop to go over all your dcd files.
+
+
+then make chages in eda.py file with resepective pdb and dcd files also change the output file names every time you run this anlysis for various selections
+
+and run ed.sh file
+
+This script uses prody python package to do pca over CA atoms.
+You should first install prody and give the right address in eda.sh file
+It gives projection of all frames onto 20 first pca's (you can change 20)
+It also tells you what the portion of each pca is (explains what fraction of variance)
+
+run files in the following order 
+
+./indices.sh
+
+./strip.sh
+
+./ed.sh
