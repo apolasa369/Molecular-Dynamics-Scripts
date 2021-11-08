@@ -1,0 +1,19 @@
+configuration {
+  step         6500
+  dt 2.00000000000000e+00
+}
+
+colvar {
+  name distA
+  x  2.64319675943447e+01
+}
+
+restraint {
+  configuration {
+    name harm
+    centers  2.64315323395717e+01
+    centers_raw  2.64315323395717e+01
+    accumulatedWork 2.98169214704576e+00
+  }
+}
+
